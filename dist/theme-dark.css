@@ -177,19 +177,6 @@ a {
 .mu-dropDown-menu-line {
   background-color: rgba(255, 255, 255, 0.3);
 }
-.mu-flat-button {
-  color: #ffffff;
-  background-color: transparent;
-}
-.mu-flat-button .mu-circle-ripple {
-  color: #ffffff;
-}
-.mu-flat-button-primary {
-  color: #1976d2;
-}
-.mu-flat-button-secondary {
-  color: #ff4081;
-}
 .mu-float-button {
   background-color: #1976d2;
   color: #303030;
@@ -215,6 +202,12 @@ a {
 }
 .mu-grid-tile-action .mu-icon {
   color: #ffffff;
+}
+.mu-icon-button-primary {
+  color: #1976d2;
+}
+.mu-icon-button-secondary {
+  color: #ff4081;
 }
 .mu-circle-spinner {
   border-color: #1976d2;
@@ -290,6 +283,9 @@ a {
   background-color: #424242;
   color: #ffffff;
 }
+.mu-popover {
+  background-color: #424242;
+}
 .mu-picker {
   background-color: #424242;
 }
@@ -305,9 +301,6 @@ a {
 }
 .mu-picker-item.selected {
   color: #ffffff;
-}
-.mu-popover {
-  background-color: #424242;
 }
 .mu-popup {
   background-color: #424242;
@@ -553,4 +546,17 @@ a {
 }
 .mu-tooltip-ripple.when-shown {
   background-color: #616161;
+}
+.mu-flat-button {
+  color: #ffffff;
+  background-color: transparent;
+}
+.mu-flat-button .mu-circle-ripple {
+  color: #ffffff;
+}
+.mu-flat-button-primary {
+  color: #1976d2;
+}
+.mu-flat-button-secondary {
+  color: #ff4081;
 }
