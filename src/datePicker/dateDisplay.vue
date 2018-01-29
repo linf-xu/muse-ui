@@ -1,19 +1,20 @@
 <template>
 <div class="mu-date-display" :class="displayClass">
-  <div class="mu-date-display-year" :class="{'disabled': disableYearSelection}" @click="handleSelectYear">
-    <transition :name="'mu-date-display-' +  slideType" v-for="displayDate, index in displayDates" :key="index">
-      <div class="mu-date-display-slideIn-wrapper" :key="displayDate.getFullYear()">
-        <div class="mu-date-display-year-title">
-          {{displayDate.getFullYear()}}
-        </div>
-      </div>
-    </transition>
-  </div>
+  
   <div class="mu-date-display-monthday" @click="handleSelectMonth">
     <transition :name="'mu-date-display-' +  slideType" v-for="displayDate, index in displayDates" :key="index">
       <div class="mu-date-display-slideIn-wrapper" :key="dateTimeFormat.formatDisplay(displayDate)" >
         <div class="mu-date-display-monthday-title">
           {{dateTimeFormat.formatDisplay(displayDate)}}
+        </div>
+      </div>
+    </transition>
+  </div>
+  <div class="mu-date-display-year" :class="{'disabled': disableYearSelection}" @click="handleSelectYear">
+    <transition :name="'mu-date-display-' +  slideType" v-for="displayDate, index in displayDates" :key="index">
+      <div class="mu-date-display-slideIn-wrapper" :key="displayDate.getFullYear()">
+        <div class="mu-date-display-year-title">
+          {{displayDate.getFullYear()}}
         </div>
       </div>
     </transition>
