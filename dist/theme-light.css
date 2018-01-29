@@ -177,6 +177,19 @@ a {
 .mu-dropDown-menu-line {
   background-color: rgba(0, 0, 0, 0.12);
 }
+.mu-flat-button {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: transparent;
+}
+.mu-flat-button .mu-circle-ripple {
+  color: rgba(0, 0, 0, 0.87);
+}
+.mu-flat-button-primary {
+  color: #2196f3;
+}
+.mu-flat-button-secondary {
+  color: #ff4081;
+}
 .mu-float-button {
   background-color: #2196f3;
   color: #ffffff;
@@ -283,9 +296,6 @@ a {
   background-color: #ffffff;
   color: rgba(0, 0, 0, 0.87);
 }
-.mu-popover {
-  background-color: #ffffff;
-}
 .mu-picker {
   background-color: #ffffff;
 }
@@ -301,6 +311,9 @@ a {
 }
 .mu-picker-item.selected {
   color: rgba(0, 0, 0, 0.87);
+}
+.mu-popover {
+  background-color: #ffffff;
 }
 .mu-popup {
   background-color: #ffffff;
@@ -546,17 +559,4 @@ a {
 }
 .mu-tooltip-ripple.when-shown {
   background-color: #616161;
-}
-.mu-flat-button {
-  color: rgba(0, 0, 0, 0.87);
-  background-color: transparent;
-}
-.mu-flat-button .mu-circle-ripple {
-  color: rgba(0, 0, 0, 0.87);
-}
-.mu-flat-button-primary {
-  color: #2196f3;
-}
-.mu-flat-button-secondary {
-  color: #ff4081;
 }

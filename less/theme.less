@@ -234,6 +234,23 @@ a {
   background-color: @dropDownMenuLineColor;
 }
 
+// flatbutton
+.mu-flat-button {
+  color: @flatButtonTextColor;
+  background-color: @flatButtonColor;
+  .mu-circle-ripple {
+    color: @flatButtonTextColor;
+  }
+}
+
+.mu-flat-button-primary{
+  color: @flatButtonPrimaryTextColor;
+}
+
+.mu-flat-button-secondary{
+  color: @flatButtonSecondaryTextColor;
+}
+
 .mu-float-button {
   background-color: @floatButtonColor;
   color: @floatButtonIconColor;
@@ -372,10 +389,6 @@ a {
   color: @paperColor;
 }
 
-.mu-popover {
-  background-color: @popoverColor;
-}
-
 .mu-picker{
   background-color: @pickerColor;
 }
@@ -397,6 +410,10 @@ a {
   &.selected {
     color: @pickerSelectedTextColor;
   }
+}
+
+.mu-popover {
+  background-color: @popoverColor;
 }
 
 .mu-popup {
@@ -731,21 +748,4 @@ a {
 
 .mu-tooltip-ripple.when-shown {
   background-color: @tooltipRippleColor;
-}
-
-// flatbutton
-.mu-flat-button {
-  color: @flatButtonTextColor;
-  background-color: @flatButtonColor;
-  .mu-circle-ripple {
-    color: @flatButtonTextColor;
-  }
-}
-
-.mu-flat-button-primary{
-  color: @flatButtonPrimaryTextColor;
-}
-
-.mu-flat-button-secondary{
-  color: @flatButtonSecondaryTextColor;
 }

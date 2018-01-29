@@ -103,10 +103,10 @@ export default {
   position: relative;
   overflow: hidden;
   margin: 0;
-  font-size: 16px;
+  font-size: 36px;
   font-weight: 500;
-  line-height: 16px;
-  height: 16px;
+  line-height: 36px;
+  height: 38px;
   opacity: 0.7;
   transition: all .45s @easeOutFunction;
   margin-bottom: 10px;
@@ -131,9 +131,9 @@ export default {
   position: relative;
   display: block;
   overflow: hidden;
-  font-size: 36px;
-  line-height: 36px;
-  height: 38px;
+  font-size: 16px;
+  line-height: 16px;
+  height: 18px;
   transition: all .45s @easeOutFunction;
   width: 100%;
   font-weight: 500;
