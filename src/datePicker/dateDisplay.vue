@@ -14,7 +14,7 @@
     <transition :name="'mu-date-display-' +  slideType" v-for="displayDate, index in displayDates" :key="index">
       <div class="mu-date-display-slideIn-wrapper" :key="displayDate.getFullYear()">
         <div class="mu-date-display-year-title">
-          {{displayDate.getFullYear()}}
+          < {{displayDate.getFullYear()}} >
         </div>
       </div>
     </transition>
