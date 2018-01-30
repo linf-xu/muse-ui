@@ -89,6 +89,7 @@ export default {
   border-top-right-radius: 2px;
   border-bottom-left-radius: 0;
   color: @alternateTextColor;
+  
   padding: 20px;
   .mu-calendar-landspace & {
     width: 165px;
@@ -109,7 +110,7 @@ export default {
   height: 38px;
   opacity: 0.7;
   transition: all .45s @easeOutFunction;
-  margin-bottom: 10px;
+  
   .mu-date-display.selected-year &{
     opacity: 1;
   }
@@ -137,6 +138,7 @@ export default {
   transition: all .45s @easeOutFunction;
   width: 100%;
   font-weight: 500;
+  margin-bottom: 10px;
   .mu-date-display.selected-year &{
     opacity: 0.7;
   }
