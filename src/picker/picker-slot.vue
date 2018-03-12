@@ -2,7 +2,7 @@
   <div class="mu-picker-slot" :class="{'mu-picker-slot-divider': divider}" :style="{'width': width}">
     <div v-if="!divider" class="mu-picker-slot-wrapper" :class="{'animate': animate}" :style="{'height': contentHeight + 'px'}" ref="wrapper">
       <div class="mu-picker-item" :style="{'text-align': textAlign}" :class="{'selected': item === value}"
-      v-for="item, index in values" :key="index">{{item.text || item}}</div>
+      v-for="(item, index) in values" :key="index">{{item.text || item}}</div>
     </div>
     <div v-if="divider">{{ content }}</div>
   </div>
@@ -13,7 +13,7 @@ import Vue from 'vue'
 import Drag from '../utils/drag'
 import translateUtil from '../utils/translate'
 import * as domUtil from '../utils/domUtil'
-const ITEM_HEIGHT = 36
+const ITEM_HEIGHT = 45
 export default {
   props: {
     divider: {
@@ -150,7 +150,7 @@ export default {
 <style lang="less">
 @import "../styles/import.less";
 .mu-picker-slot{
-  font-size: 18px;
+  font-size: .373333rem;
   overflow: hidden;
   position: relative;
   max-height: 100%;
@@ -159,7 +159,7 @@ export default {
     color: @textColor;
     display: flex;
     align-items: center;
-    line-height: 36px;
+    line-height: 1.2rem;
   }
 }
 .mu-picker-slot-wrapper.animate{
@@ -167,10 +167,10 @@ export default {
   backface-visibility: hidden;
 }
 .mu-picker-item{
-  height: 36px;
-  line-height: 36px;
+  height: 1.2rem;
+  line-height: 1.2rem;
   padding: 0 10px;
-  font-size: 20px;
+  font-size: .373333rem;
   white-space: nowrap;
   position: relative;
   overflow: hidden;
