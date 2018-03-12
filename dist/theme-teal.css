@@ -168,6 +168,15 @@ a {
 .mu-dialog-body {
   color: rgba(0, 0, 0, 0.6);
 }
+.mu-dropDown-menu-text {
+  color: rgba(0, 0, 0, 0.87);
+}
+.mu-dropDown-menu-icon {
+  color: rgba(0, 0, 0, 0.12);
+}
+.mu-dropDown-menu-line {
+  background-color: rgba(0, 0, 0, 0.12);
+}
 .mu-flat-button {
   color: rgba(0, 0, 0, 0.87);
   background-color: transparent;
@@ -180,15 +189,6 @@ a {
 }
 .mu-flat-button-secondary {
   color: #ff4081;
-}
-.mu-dropDown-menu-text {
-  color: rgba(0, 0, 0, 0.87);
-}
-.mu-dropDown-menu-icon {
-  color: rgba(0, 0, 0, 0.12);
-}
-.mu-dropDown-menu-line {
-  background-color: rgba(0, 0, 0, 0.12);
 }
 .mu-float-button {
   background-color: #009688;

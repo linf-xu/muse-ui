@@ -13,7 +13,7 @@ import Vue from 'vue'
 import Drag from '../utils/drag'
 import translateUtil from '../utils/translate'
 import * as domUtil from '../utils/domUtil'
-const ITEM_HEIGHT = document.body.clientWidth/100*12
+const ITEM_HEIGHT = Math.round(document.body.clientWidth/100*12)
 export default {
   props: {
     divider: {
