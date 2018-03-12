@@ -427,43 +427,6 @@ a {
 .mu-sub-header {
   color: rgba(0, 0, 0, 0.54);
 }
-.mu-tabs {
-  background-color: #2196f3;
-}
-.mu-tab-link-highlight {
-  background-color: #ff4081;
-}
-.mu-tab-link {
-  color: rgba(255, 255, 255, 0.7);
-}
-.mu-tab-active {
-  color: #ffffff;
-}
-.mu-table {
-  background-color: #ffffff;
-}
-.mu-thead {
-  border-bottom-color: rgba(0, 0, 0, 0.12);
-}
-.mu-th {
-  color: rgba(0, 0, 0, 0.54);
-}
-.mu-tr {
-  border-bottom-color: rgba(0, 0, 0, 0.12);
-  color: rgba(0, 0, 0, 0.87);
-}
-.mu-tr.selected {
-  background-color: #f5f5f5;
-}
-.mu-tr.hover {
-  background-color: #eeeeee;
-}
-.mu-tr.stripe {
-  background-color: rgba(255, 255, 255, 0.4);
-}
-.mu-tfoot .mu-tr {
-  border-top-color: rgba(0, 0, 0, 0.12);
-}
 .mu-switch input[type="checkbox"]:checked + .mu-switch-wrapper .mu-switch-track {
   background-color: rgba(33, 150, 243, 0.5);
 }
@@ -495,6 +458,43 @@ a {
 }
 .mu-switch.disabled .mu-switch-thumb {
   background-color: #e0e0e0;
+}
+.mu-table {
+  background-color: #ffffff;
+}
+.mu-thead {
+  border-bottom-color: rgba(0, 0, 0, 0.12);
+}
+.mu-th {
+  color: rgba(0, 0, 0, 0.54);
+}
+.mu-tr {
+  border-bottom-color: rgba(0, 0, 0, 0.12);
+  color: rgba(0, 0, 0, 0.87);
+}
+.mu-tr.selected {
+  background-color: #f5f5f5;
+}
+.mu-tr.hover {
+  background-color: #eeeeee;
+}
+.mu-tr.stripe {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.mu-tfoot .mu-tr {
+  border-top-color: rgba(0, 0, 0, 0.12);
+}
+.mu-tabs {
+  background-color: #2196f3;
+}
+.mu-tab-link-highlight {
+  background-color: #ff4081;
+}
+.mu-tab-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+.mu-tab-active {
+  color: #ffffff;
 }
 .mu-text-field {
   color: rgba(0, 0, 0, 0.54);

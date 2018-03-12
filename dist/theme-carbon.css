@@ -427,43 +427,6 @@ a {
 .mu-sub-header {
   color: #7e848c;
 }
-.mu-tabs {
-  background-color: #474a4f;
-}
-.mu-tab-link-highlight {
-  background-color: #ff5252;
-}
-.mu-tab-link {
-  color: rgba(255, 255, 255, 0.7);
-}
-.mu-tab-active {
-  color: #ffffff;
-}
-.mu-table {
-  background-color: #ffffff;
-}
-.mu-thead {
-  border-bottom-color: #edeff2;
-}
-.mu-th {
-  color: #7e848c;
-}
-.mu-tr {
-  border-bottom-color: #edeff2;
-  color: #474a4f;
-}
-.mu-tr.selected {
-  background-color: #f5f5f5;
-}
-.mu-tr.hover {
-  background-color: #eeeeee;
-}
-.mu-tr.stripe {
-  background-color: rgba(200, 202, 205, 0.4);
-}
-.mu-tfoot .mu-tr {
-  border-top-color: #edeff2;
-}
 .mu-switch input[type="checkbox"]:checked + .mu-switch-wrapper .mu-switch-track {
   background-color: rgba(255, 82, 82, 0.5);
 }
@@ -495,6 +458,43 @@ a {
 }
 .mu-switch.disabled .mu-switch-thumb {
   background-color: #e0e0e0;
+}
+.mu-table {
+  background-color: #ffffff;
+}
+.mu-thead {
+  border-bottom-color: #edeff2;
+}
+.mu-th {
+  color: #7e848c;
+}
+.mu-tr {
+  border-bottom-color: #edeff2;
+  color: #474a4f;
+}
+.mu-tr.selected {
+  background-color: #f5f5f5;
+}
+.mu-tr.hover {
+  background-color: #eeeeee;
+}
+.mu-tr.stripe {
+  background-color: rgba(200, 202, 205, 0.4);
+}
+.mu-tfoot .mu-tr {
+  border-top-color: #edeff2;
+}
+.mu-tabs {
+  background-color: #474a4f;
+}
+.mu-tab-link-highlight {
+  background-color: #ff5252;
+}
+.mu-tab-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+.mu-tab-active {
+  color: #ffffff;
 }
 .mu-text-field {
   color: #7e848c;

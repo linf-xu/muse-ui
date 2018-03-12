@@ -14,7 +14,7 @@ import Drag from '../utils/drag'
 import translateUtil from '../utils/translate'
 import * as domUtil from '../utils/domUtil'
 let bodyW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
-const ITEM_HEIGHT = Math.round(bodyW / 100 * 12)
+const ITEM_HEIGHT = bodyW / 100 * 12
 console.log(ITEM_HEIGHT)
 export default {
   props: {
