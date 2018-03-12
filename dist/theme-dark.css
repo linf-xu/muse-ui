@@ -427,6 +427,43 @@ a {
 .mu-sub-header {
   color: rgba(255, 255, 255, 0.7);
 }
+.mu-tabs {
+  background-color: #1976d2;
+}
+.mu-tab-link-highlight {
+  background-color: #ff4081;
+}
+.mu-tab-link {
+  color: rgba(48, 48, 48, 0.7);
+}
+.mu-tab-active {
+  color: #303030;
+}
+.mu-table {
+  background-color: #303030;
+}
+.mu-thead {
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+.mu-th {
+  color: rgba(255, 255, 255, 0.7);
+}
+.mu-tr {
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+}
+.mu-tr.selected {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.mu-tr.hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.mu-tr.stripe {
+  background-color: rgba(237, 245, 253, 0.4);
+}
+.mu-tfoot .mu-tr {
+  border-top-color: rgba(255, 255, 255, 0.3);
+}
 .mu-switch input[type="checkbox"]:checked + .mu-switch-wrapper .mu-switch-track {
   background-color: rgba(25, 118, 210, 0.5);
 }
@@ -458,43 +495,6 @@ a {
 }
 .mu-switch.disabled .mu-switch-thumb {
   background-color: #e0e0e0;
-}
-.mu-table {
-  background-color: #303030;
-}
-.mu-thead {
-  border-bottom-color: rgba(255, 255, 255, 0.3);
-}
-.mu-th {
-  color: rgba(255, 255, 255, 0.7);
-}
-.mu-tr {
-  border-bottom-color: rgba(255, 255, 255, 0.3);
-  color: #ffffff;
-}
-.mu-tr.selected {
-  background-color: rgba(255, 255, 255, 0.05);
-}
-.mu-tr.hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.mu-tr.stripe {
-  background-color: rgba(237, 245, 253, 0.4);
-}
-.mu-tfoot .mu-tr {
-  border-top-color: rgba(255, 255, 255, 0.3);
-}
-.mu-tabs {
-  background-color: #1976d2;
-}
-.mu-tab-link-highlight {
-  background-color: #ff4081;
-}
-.mu-tab-link {
-  color: rgba(48, 48, 48, 0.7);
-}
-.mu-tab-active {
-  color: #303030;
 }
 .mu-text-field {
   color: rgba(255, 255, 255, 0.7);
