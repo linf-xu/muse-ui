@@ -52,13 +52,13 @@ export default {
 }
 
 .mu-picker-center-highlight {
-  height: 1.2rem;
+  height: 45px;
   box-sizing: border-box;
   position: absolute;
   left: 0;
   width: 100%;
   top: 50%;
-  margin-top: -0.6rem;
+  margin-top: -22.5px;
   pointer-events: none;
   border-top: 1px solid @borderColor;
   border-bottom: 1px solid @borderColor;

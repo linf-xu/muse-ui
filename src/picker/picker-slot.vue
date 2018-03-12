@@ -13,8 +13,7 @@ import Vue from 'vue'
 import Drag from '../utils/drag'
 import translateUtil from '../utils/translate'
 import * as domUtil from '../utils/domUtil'
-let bodyW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
-const ITEM_HEIGHT = bodyW / 100 * 12
+const ITEM_HEIGHT = 45
 console.log(ITEM_HEIGHT)
 export default {
   props: {
@@ -161,7 +160,7 @@ export default {
     color: @textColor;
     display: flex;
     align-items: center;
-    line-height: 1.2rem;
+    line-height: 45px;
   }
 }
 .mu-picker-slot-wrapper.animate{
@@ -169,8 +168,8 @@ export default {
   backface-visibility: hidden;
 }
 .mu-picker-item{
-  height: 1.2rem;
-  line-height: 1.2rem;
+  height: 45px;
+  line-height: 45px;
   padding: 0 10px;
   font-size: .373333rem;
   white-space: nowrap;
