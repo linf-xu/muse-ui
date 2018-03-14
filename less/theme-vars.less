@@ -45,7 +45,10 @@
 @chipDeleteColor: fade(@textColor, 26%);
 @chipHoverDeleteColor: fade(fade(@textColor, 26%), 40%);
 
-@circularProgressColor: @primaryColor;
+@dialogBorderColor: @borderColor;
+@dialogTitleColor: @textColor;
+@dialogBodyColor: fade(@textColor, 60%);;
+@dialogColor: @dialogBackgroundColor;
 
 @datePickerColor: @primaryColor;
 @datePickerTextColor: @alternateTextColor;
@@ -54,11 +57,6 @@
 @datePickerSelectTextColor: @alternateTextColor;
 @datePickerCalendarYearBackgroundColor: @dialogBackgroundColor;
 @datePickerHeaderColor: @primaryColor;
-
-@dialogBorderColor: @borderColor;
-@dialogTitleColor: @textColor;
-@dialogBodyColor: fade(@textColor, 60%);;
-@dialogColor: @dialogBackgroundColor;
 
 @dropDownMenuTextColor: @textColor;
 @dropDownMenuIconColor: @borderColor;
@@ -84,6 +82,10 @@
 // iconButton
 @iconButtonPrimaryColor: @primaryColor;
 @iconButtonSecondaryColor: @accentColor;
+// circle
+@circleColor: @primaryColor;
+@circleSecondaryColor: @accentColor;
+
 @linearProgressColor: @lighterPrimaryColor;
 @linearProgressFillColor: @primaryColor;
 
@@ -94,10 +96,6 @@
 @listLeftIconColor: @grey600;
 @listRightIconColor: @grey600;
 @listSelectedColor: @primaryColor;
-
-// circle
-@circleColor: @primaryColor;
-@circleSecondaryColor: @accentColor;
 
 @menuTextColor: @textColor;
 @menuSelectColor: @accentColor;
@@ -112,13 +110,13 @@
 @paginationActiveColor: @white;
 @paginationDisabledColor: @disabledColor;
 
-@paperColor: @textColor;
-@paperBackgroundColor: @dialogBackgroundColor;
-
 @pickerColor: @dialogBackgroundColor;
 @pickerTextColor: @secondaryTextColor;
 @pickerSelectedTextColor: @textColor;
 @pickerBorderColor: @borderColor;
+
+@paperColor: @textColor;
+@paperBackgroundColor: @dialogBackgroundColor;
 
 @popoverColor: @dialogBackgroundColor;
 
@@ -136,6 +134,8 @@
 @raisedButtonSecondaryColor: @accentColor;
 @raisedButtonDisabledColor: darken(@alternateTextColor, 10%);
 @raisedButtonDisabledTextColor: fade(@textColor, 30%);
+
+@circularProgressColor: @primaryColor;
 
 @refreshControlColor: @primaryColor;
 

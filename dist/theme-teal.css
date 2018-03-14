@@ -168,15 +168,6 @@ a {
 .mu-dialog-body {
   color: rgba(0, 0, 0, 0.6);
 }
-.mu-dropDown-menu-text {
-  color: rgba(0, 0, 0, 0.87);
-}
-.mu-dropDown-menu-icon {
-  color: rgba(0, 0, 0, 0.12);
-}
-.mu-dropDown-menu-line {
-  background-color: rgba(0, 0, 0, 0.12);
-}
 .mu-flat-button {
   color: rgba(0, 0, 0, 0.87);
   background-color: transparent;
@@ -189,6 +180,15 @@ a {
 }
 .mu-flat-button-secondary {
   color: #ff4081;
+}
+.mu-dropDown-menu-text {
+  color: rgba(0, 0, 0, 0.87);
+}
+.mu-dropDown-menu-icon {
+  color: rgba(0, 0, 0, 0.12);
+}
+.mu-dropDown-menu-line {
+  background-color: rgba(0, 0, 0, 0.12);
 }
 .mu-float-button {
   background-color: #009688;
@@ -279,6 +279,10 @@ a {
 .mu-menu-item-right-icon {
   color: #757575;
 }
+.mu-paper {
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.87);
+}
 .mu-pagination-item {
   color: rgba(0, 0, 0, 0.87);
 }
@@ -291,10 +295,6 @@ a {
 }
 .mu-pagination-item.disabled {
   color: rgba(0, 0, 0, 0.38);
-}
-.mu-paper {
-  background-color: #ffffff;
-  color: rgba(0, 0, 0, 0.87);
 }
 .mu-picker {
   background-color: #ffffff;
@@ -427,6 +427,31 @@ a {
 .mu-sub-header {
   color: rgba(0, 0, 0, 0.54);
 }
+.mu-table {
+  background-color: #ffffff;
+}
+.mu-thead {
+  border-bottom-color: rgba(0, 0, 0, 0.12);
+}
+.mu-th {
+  color: rgba(0, 0, 0, 0.54);
+}
+.mu-tr {
+  border-bottom-color: rgba(0, 0, 0, 0.12);
+  color: rgba(0, 0, 0, 0.87);
+}
+.mu-tr.selected {
+  background-color: #f5f5f5;
+}
+.mu-tr.hover {
+  background-color: #eeeeee;
+}
+.mu-tr.stripe {
+  background-color: rgba(150, 255, 245, 0.4);
+}
+.mu-tfoot .mu-tr {
+  border-top-color: rgba(0, 0, 0, 0.12);
+}
 .mu-switch input[type="checkbox"]:checked + .mu-switch-wrapper .mu-switch-track {
   background-color: rgba(0, 150, 136, 0.5);
 }
@@ -458,31 +483,6 @@ a {
 }
 .mu-switch.disabled .mu-switch-thumb {
   background-color: #e0e0e0;
-}
-.mu-table {
-  background-color: #ffffff;
-}
-.mu-thead {
-  border-bottom-color: rgba(0, 0, 0, 0.12);
-}
-.mu-th {
-  color: rgba(0, 0, 0, 0.54);
-}
-.mu-tr {
-  border-bottom-color: rgba(0, 0, 0, 0.12);
-  color: rgba(0, 0, 0, 0.87);
-}
-.mu-tr.selected {
-  background-color: #f5f5f5;
-}
-.mu-tr.hover {
-  background-color: #eeeeee;
-}
-.mu-tr.stripe {
-  background-color: rgba(150, 255, 245, 0.4);
-}
-.mu-tfoot .mu-tr {
-  border-top-color: rgba(0, 0, 0, 0.12);
 }
 .mu-tabs {
   background-color: #009688;

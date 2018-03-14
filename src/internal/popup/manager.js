@@ -52,6 +52,8 @@ const PopupManager = {
     this.htmlOverflow = html.style.overflow
     body.style.overflow = 'hidden'
     html.style.overflow = 'hidden'
+    body.style.height = '100%'
+    html.style.height = '100%'
     this.locked = true
   },
 
@@ -61,6 +63,8 @@ const PopupManager = {
     const html = document.getElementsByTagName('html')[0]
     body.style.overflow = this.bodyOverflow || ''
     html.style.overflow = this.htmlOverflow || ''
+    body.style.height = ''
+    html.style.height = ''
     this.bodyOverflow = null
     this.htmlOverflow = null
     this.locked = false
